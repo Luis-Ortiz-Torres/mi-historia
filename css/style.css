@@ -2,10 +2,12 @@ h1{
       font-size: 30px;
       text-align: center;
       color: blue;
+      text-transform: capitalize;
 }
 
 p{
       font-size: 15px;
       text-align: center;
       color: brown;
+
 }
