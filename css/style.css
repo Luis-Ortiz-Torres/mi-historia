@@ -2,8 +2,15 @@
       min-height: 100vh;
       width: 70%;
       padding: 20px;
-      border: 1px solid #000;
-      background: linear-gradient(60% blue, 40% red);
+      margin: 0 auto;
+      background: linear-gradient(45deg, rgba(9,250,25,1) 0%,
+                                         rgba(125,233,227,1) 18%, 
+                                         rgba(25,39,213,1) 35%,
+                                         rgba(158,25,214,1) 49%,
+                                         rgba(209,25,214,1) 55%,
+                                         rgba(214,25,111,1) 65%,
+                                         rgba(214,25,70,1) 77%,
+                                         rgba(251,1,1,1) 89%);
 }
 
 #post{
@@ -14,16 +21,40 @@
       flex-wrap: wrap;
 }
 
-h1{
-      font-size: 30px;
+#titulo{
+       font-weight: bold;
+       color: black;
+       background: white;
+       box-shadow: 15px 15px 10px 0px rgb(1, 255, 44),
+                  -15px -15px 10px 0px rgb(255, 251, 0);
+       font-size: 25px;
+       padding: 30px 10px;
+       border-radius: 10px;
+       -webkit-border-radius: 10px;
+       -moz-border-radius: 10px;
+       -ms-border-radius: 10px;
+       -o-border-radius: 10px;
+}
+#titulo #tagline{
+
+      font-size: 20px;
+      font-weight: 400;
+}
+h2{
+      font-size: 20px;
       text-align: center;
-      color: rgb(0, 0, 0);
+      color: rgb(255, 255, 255);
       text-transform: capitalize;
 }
 
 p{
       font-size: 15px;
       text-align: center;
-      color: brown;
+<<<<<<< HEAD
+      
       font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+=======
+      color: rgb(255, 255, 255);
+
+>>>>>>> cabecera
 }
