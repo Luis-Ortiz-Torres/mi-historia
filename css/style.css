@@ -1,7 +1,23 @@
+#container{
+      min-height: 100vh;
+      width: 70%;
+      padding: 20px;
+      border: 1px solid #000;
+      background: linear-gradient(60% blue, 40% red);
+}
+
+#post{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+}
+
 h1{
       font-size: 30px;
       text-align: center;
-      color: blue;
+      color: rgb(0, 0, 0);
       text-transform: capitalize;
 }
 
